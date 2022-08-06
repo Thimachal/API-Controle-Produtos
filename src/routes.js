@@ -2,7 +2,7 @@ const express = require('express');
 const usuarios = require('./controllers/usuarios');
 const login = require('./controllers/login');
 const produtos = require('./controllers/produtos');
-const verificaLogin = require('./filtros/verificaLogin');
+const verificaLogin = require('./filters/verificaLogin');
 
 const routes = express();
 
