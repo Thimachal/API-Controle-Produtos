@@ -5,7 +5,10 @@ const pool = new Pool({
     host: 'localhost',
     database: 'market',
     password: '1234',
-    port: 5432
+    port: 5432,
+    ssl: {
+        rejectUnauthorized: false
+    }
 });
 
 const query = (text, param) => {
