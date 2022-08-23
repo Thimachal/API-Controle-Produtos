@@ -21,3 +21,5 @@ create table produtos (
   	imagem text,
   	foreign key (usuario_id) references usuarios (id)
 );
+select * from produtos;
+select * from usuarios;
