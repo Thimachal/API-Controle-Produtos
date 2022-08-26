@@ -2,10 +2,18 @@
 
 Nesta API pode-se realizar os CRUD's de usuários e produtos, desde que o usuário esteja logado com e-mail e a senha (criptografada).
 
-Principais ferramentas usadas:
+## Principais tecnologias usadas:
 
 ✓ Javascript;
 <br>
-✓ Node Js;
+✓ Node.Js;
 <br>
-✓ PostgreSQL;
+✓ Banco de dados PostgreSQL;
+<br>
+✓ Criptografia;
+<br>
+✓ Token;
+<br>
+✓ Json;
+<br>
+✓ Insomnia.
